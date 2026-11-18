@@ -44,10 +44,10 @@ export const projects: Project[] = [
       "xUnit",
     ],
     category: "Healthcare",
-    image: "/images/project-placeholder.svg",
+    image: "/images/smart-elderly-care.png",
     screenshots: [
-      "/images/project-placeholder.svg",
-      "/images/project-screenshot.svg",
+      "/images/smart-elderly-care.png",
+      "/images/smart-elderly-care.png",
     ],
     liveUrl: "",
     githubUrl: "https://github.com/Almarmla/SmartElderlyCare",

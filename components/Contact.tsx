@@ -197,7 +197,7 @@ export default function Contact() {
     >
       <Reveal className="mx-auto w-full max-w-6xl px-6">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
-          <div>
+          <div className="min-w-0">
             <p className="text-sm font-semibold uppercase tracking-widest text-emerald-700 dark:text-emerald-400">
               {content.eyebrow}
             </p>
@@ -264,7 +264,7 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className="rounded-3xl border border-zinc-200 bg-white/60 p-6 sm:p-8 dark:border-zinc-800 dark:bg-zinc-900/40">
+          <div className="min-w-0 rounded-3xl border border-zinc-200 bg-white/60 p-6 sm:p-8 dark:border-zinc-800 dark:bg-zinc-900/40">
             <form onSubmit={handleSubmit} noValidate className="space-y-5">
               <div>
                 <label

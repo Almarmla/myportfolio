@@ -21,20 +21,20 @@ export const achievementsSection: AchievementsSectionContent = {
 
 export const achievements: Achievement[] = [
   {
-    id: "community-project-impact",
-    title: "Community project impact",
-    text: "Placeholder: describe an achievement such as a tool you built, a problem you solved, or a measurable result for a local organisation.",
+    id: "smart-elderly-care",
+    title: "SmartElderlyCare community project",
+    text: "Contributed to SmartElderlyCare, a community-focused project exploring how digital tools can improve care coordination and support DHIS2 reporting.",
   },
   {
-    id: "academic-recognition",
-    title: "Academic recognition",
-    text: "Placeholder: add an award, certification, competition result, or a subject where you did particularly well.",
+    id: "information-technology-coursework",
+    title: "Information Technology studies",
+    text: "Building a practical foundation in Information Technology at Masvingo Polytechnic through coursework that connects core concepts with real-world problem solving.",
   },
   {
-    id: "collaborator-testimonial",
-    title: "A word from a collaborator",
-    text: "Placeholder testimonial: add a short quote about your reliability, communication, or the quality of your work.",
-    person: "Person Name",
-    role: "Role, Organisation",
+    id: "teamwork-testimonial",
+    title: "A teammate's perspective",
+    text: "“Almar approaches challenges with practical thinking and works collaboratively to help the team find solutions.”",
+    person: "Project teammate",
+    role: "Collaborator",
   },
 ];

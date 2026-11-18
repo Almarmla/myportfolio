@@ -215,7 +215,7 @@ export default function Skills() {
           {skillGroups.map((group) => (
             <article
               key={group.title}
-              className="rounded-3xl border border-zinc-200 bg-white/60 p-6 dark:border-zinc-800 dark:bg-zinc-900/40"
+              className="min-w-0 rounded-3xl border border-zinc-200 bg-white/60 p-6 dark:border-zinc-800 dark:bg-zinc-900/40"
             >
               <div className="flex items-center justify-between gap-4">
                 <h3 className="text-sm font-semibold uppercase tracking-widest text-zinc-500 dark:text-zinc-400">

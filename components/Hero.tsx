@@ -45,7 +45,7 @@ export default function Hero() {
             </p>
             <h1
               id="hero-heading"
-              className="mt-3 text-5xl font-semibold tracking-tight text-zinc-950 sm:text-7xl lg:text-8xl dark:text-zinc-50"
+              className="mt-3 text-4xl font-semibold tracking-tight text-zinc-950 sm:text-7xl lg:text-8xl dark:text-zinc-50"
             >
               {profile.name}
             </h1>

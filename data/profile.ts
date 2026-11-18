@@ -16,8 +16,8 @@ export const profile: Profile = {
   location: "Zimbabwe",
   email: "mlamboalmar97@gmail.com",
   github: "https://github.com/Almarmla",
-  linkedin: "[YOUR LINKEDIN URL]",
+  linkedin: "https://linkedin.com/in/almar-mlambo",
   photo: "/images/profile.jpg",
   cvUrl: "/cv.pdf",
-  bio: "[YOUR SHORT BIO]",
+  bio: "I’m an IT student at Masvingo Polytechnic. I’m passionate about developing accessible software for local communities using C# and Next.js.",
 };
