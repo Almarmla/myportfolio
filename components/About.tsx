@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import { profile } from "@/data/profile";
 
@@ -47,32 +46,19 @@ export default function About() {
       className="scroll-mt-16 border-t border-zinc-200/70 py-24 sm:py-28 dark:border-zinc-800/70"
     >
       <Reveal className="mx-auto w-full max-w-6xl px-6">
-        <div className="grid gap-10 md:grid-cols-[20rem_1fr] md:items-center md:gap-16">
-          <div className="relative mx-auto aspect-square w-full max-w-xs overflow-hidden rounded-full border border-zinc-200 bg-zinc-100 shadow-xl ring-1 ring-emerald-500/20 md:mx-0 dark:border-zinc-800 dark:bg-zinc-900">
-            <Image
-              src={profile.photo}
-              alt="Almar, IT student and software developer"
-              fill
-              sizes="320px"
-              className="object-cover"
-              unoptimized
-            />
-          </div>
-
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-emerald-700 dark:text-emerald-400">
-              {about.eyebrow}
-            </p>
-            <h2
-              id="about-heading"
-              className="mt-3 text-3xl font-semibold tracking-tight text-zinc-950 sm:text-4xl dark:text-zinc-50"
-            >
-              {about.heading}
-            </h2>
-            <p className="mt-6 text-base leading-7 text-zinc-600 dark:text-zinc-400">
-              {profile.bio}
-            </p>
-          </div>
+        <div className="max-w-3xl">
+          <p className="text-sm font-semibold uppercase tracking-widest text-emerald-700 dark:text-emerald-400">
+            {about.eyebrow}
+          </p>
+          <h2
+            id="about-heading"
+            className="mt-3 text-3xl font-semibold tracking-tight text-zinc-950 sm:text-4xl dark:text-zinc-50"
+          >
+            {about.heading}
+          </h2>
+          <p className="mt-6 text-base leading-7 text-zinc-600 dark:text-zinc-400">
+            {profile.bio}
+          </p>
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-3">
