@@ -16,7 +16,7 @@ export const achievementsSection: AchievementsSectionContent = {
   eyebrow: "Achievements",
   heading: "Achievements & testimonials",
   description:
-    "Placeholder highlights from my studies and community projects. Replace these cards with awards, certifications, or feedback from people I've worked with.",
+    "Highlights from my academic coursework at Masvingo Polytechnic and practical community software projects.",
 };
 
 export const achievements: Achievement[] = [
